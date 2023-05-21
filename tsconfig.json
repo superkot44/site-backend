@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "incremental": true,
+    "target": "es2017",
+    "module": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "lib": ["ESNext"],
+    "strictNullChecks": false,
+    "baseUrl": "./",
+    "paths": {
+      "mongodb": ["./node_modules/mongodb"],
+      "dotenv": ["./node_modules/dotenv"]
+    },
+    "moduleResolution": "node"
+  },
+  "compileOnSave": true,
+  "include": ["src"]
+}
